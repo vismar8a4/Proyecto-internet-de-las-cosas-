@@ -1,0 +1,7 @@
+Compiling D:\PROYECTO_TESIS\main on 12-dic.-20 at 22:10
+*** Error 75 "D:\PROYECTO_TESIS\main.c" Line 350(1,2): Expect WHILE
+*** Error 43 "D:\PROYECTO_TESIS\main.c" Line 350(2,7): Expecting a declaration
+*** Error 43 "D:\PROYECTO_TESIS\main.c" Line 350(7,8): Expecting a declaration
+*** Error 43 "D:\PROYECTO_TESIS\main.c" Line 350(8,13): Expecting a declaration
+*** Error 43 "D:\PROYECTO_TESIS\main.c" Line 350(12,13): Expecting a declaration
+*** Error 43 "D:\PROYECTO_TESIS\main.c" Line 351(1,2): Expecting a declaration
