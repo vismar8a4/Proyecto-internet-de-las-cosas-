@@ -1,0 +1,98 @@
+[PROJECT]
+Target=temp.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.091
+Compiler=PCM
+[Target Data]
+FileList=temp.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\
+[temp.c]
+Type=4
+[mru-list]
+1=temp.c
+[Opened Files]
+1=temp.c
+2=D:\tarea12_05_2020\main.c
+3=
+t1=136
+t2=1
+Count=1
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=13
+D1=25-05-2020
+D1_L=7
+D1_L1=[44725]Project Opened.
+D1_L2=[46579]Started Editing.
+D1_L3=[46832]Stopped Editing.
+TotalEdit=20
+TotalDebug=0
+D1_E=5
+D1_D=0
+D1_L4=[46834]Project Closed.
+D1_L5=[46895]Project Opened.
+D1_L6=[46900]Started Editing.
+D1_L7=[47789]Stopped Editing.
+D2=26-05-2020
+D2_L=2
+D2_L1=[44922]Project Opened.
+D2_L2=[44923]Project Closed.
+D3=30-05-2020
+D3_L=4
+D3_L1=[69420]Project Opened.
+D3_L2=[69434]Started Editing.
+D3_L3=[70333]Stopped Editing.
+D3_E=10
+D3_D=0
+D3_L4=[83487]Project Closed.
+D4=01-06-2020
+D4_L=2
+D4_L1=[53474]Project Opened.
+D4_L2=[53497]Project Closed.
+D5=03-06-2020
+D5_L=4
+D5_L1=[71323]Project Opened.
+D5_L2=[71335]Started Editing.
+D5_L3=[71880]Stopped Editing.
+D5_E=5
+D5_D=0
+D5_L4=[81986]Project Closed.
+D6=19-06-2020
+D6_L=2
+D6_L1=[70732]Project Opened.
+D6_L2=[76142]Project Closed.
+D7=22-06-2020
+D7_L=1
+D7_L1=[66336]Project Opened.
+D8=23-06-2020
+D8_L=1
+D8_L1=[6871]Project Closed.
+D9=04-08-2020
+D9_L=2
+D9_L1=[84256]Project Opened.
+D9_L2=[84265]Project Closed.
+D10=10-08-2020
+D10_L=2
+D10_L1=[58779]Project Opened.
+D10_L2=[59695]Project Closed.
+D11=21-10-2020
+D11_L=2
+D11_L1=[34802]Project Opened.
+D11_L2=[35052]Project Closed.
+D12=23-10-2020
+D12_L=2
+D12_L1=[37744]Project Opened.
+D12_L2=[38269]Project Closed.
+D13=22-06-2021
+D13_L=1
+D13_L1=[54338]Project Opened.
+
+[defines]
+buildcount=16
+[Units]
+Count=1
+1=temp (main)

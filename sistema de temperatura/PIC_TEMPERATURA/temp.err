@@ -1,0 +1,27 @@
+Compiling C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp on 22-jun.-21 at 15:06
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 52(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 58(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 64(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 70(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 74(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 80(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 86(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 92(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 96(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 102(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 108(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 114(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 118(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 122(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 128(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 132(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 181(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 194(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 209(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 231(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 245(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 274(1,1): String truncated
+>>> Warning 230 "C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp.c" Line 293(1,1): String truncated
+      Memory usage:   ROM=28%      RAM=11% - 16%
+      0 Errors,  23 Warnings.
+Build Successful.

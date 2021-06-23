@@ -1,0 +1,202 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     lcd
+008     lcdlat
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     LeerTeclado.RotaCol
+021     LeerTeclado.RotaFil
+022     LeerTeclado.Fil
+023     LeerTeclado.Col
+024     LeerTeclado.Aux
+025.0   LeerTeclado.TecladoPulsado
+025.1   detector
+026     dig1
+027     min0
+028     dig2
+029     min3
+02A     imprime
+02B     dig3
+02C     atencion
+02D     dig
+02E     max0
+02F     max3
+030-031 ayuda
+032-033 temperatura
+034-035 temp
+036-037 Tmax
+038-039 Tmin
+03A-03B min1
+03C-03D max1
+03E-03F @sprintf_string
+040     @TRIS_C
+041     LeerTeclado.NTecla
+041     lcd_init.i
+041-044 ProcesarSenal.Read
+041-042 @MUL1616.P1
+041     ProcesarTeclado.@SCRATCH1
+041     @PSTRINGC7_693.@SCRATCH1
+041     MAIN.@SCRATCH1
+042-045 lcd_init.LCD_INIT_STRING
+042     LeerTeclado.@SCRATCH1
+042     ProcesarTeclado.@SCRATCH2
+042     @PSTRINGC7_693.@SCRATCH2
+042     MAIN.@SCRATCH2
+043-044 @MUL1616.P1
+043     @MUL88.P2
+043     ProcesarTeclado.@SCRATCH3
+043     @PSTRINGC7_693.@SCRATCH3
+043     MAIN.@SCRATCH3
+044     lcd_putc.c
+044     @MUL88.P1
+044     ProcesarTeclado.@SCRATCH4
+044     @PSTRINGC7_693.@SCRATCH4
+044     MAIN.@SCRATCH4
+045-046 DescomponerDigitos.Dato
+045-048 @DTOF.P1
+045-048 @SFTOI.P2
+045     lcd_gotoxy.x
+045     ProcesarSenal.@SCRATCH1
+045     @MUL1616.@SCRATCH1
+046     @delay_ms1.P1
+046     lcd_gotoxy.y
+046     lcd_init.@SCRATCH1
+046     ProcesarSenal.@SCRATCH2
+047     lcd_gotoxy.address
+047-048 DescomponerDigitos.Aux
+047     ProcesarSenal.@SCRATCH3
+048     lcd_gotoxy.@SCRATCH1
+048     ProcesarSenal.@SCRATCH4
+049-04C @DIVFF.P1
+049     lcd_send_byte.address
+049-04C @MULFF.P1
+049     DescomponerDigitos.@SCRATCH1
+04A     lcd_send_byte.n
+04A     DescomponerDigitos.@SCRATCH2
+04B     lcd_read_byte.low
+04B-04C @DIV1616.P1
+04B     lcd_send_byte.@SCRATCH1
+04C     lcd_send_nibble.n
+04C     lcd_read_byte.high
+04D-050 @MULFF.P1
+04D-050 @DIVFF.P2
+04D-04E @DIV1616.P3
+04D     lcd_read_byte.@SCRATCH1
+04F     @DIV1616.@SCRATCH1
+051     @MULFF.@SCRATCH1
+051     @DIVFF.@SCRATCH1
+052     @MULFF.@SCRATCH2
+052     @DIVFF.@SCRATCH2
+053     @MULFF.@SCRATCH3
+053     @DIVFF.@SCRATCH3
+054     @MULFF.@SCRATCH4
+054     @DIVFF.@SCRATCH4
+055     @MULFF.@SCRATCH5
+055     @DIVFF.@SCRATCH5
+056     @DIVFF.@SCRATCH6
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+088     lcdtris
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const770.call
+000008  @const775.call
+000009  @const776.call
+00000C  @const780.call
+000013  @const781.call
+000019  @const782.call
+000022  @const783.call
+000026  @const786.call
+000027  @const794.call
+000030  @const795.call
+000034  @const798.call
+000035  @const799.call
+000038  @const802.call
+000039  @const803.call
+00003C  @const806.call
+00003D  @const807.call
+000040  @const809.call
+000043  @const810.call
+000046  @const811.call
+00004E  @const812.call
+000056  @const813.call
+00005E  @const814.call
+000067  @const815.call
+000070  @const816.call
+000078  @const817.call
+000080  @const818.call
+000089  @delay_ms1
+00009E  lcd_send_nibble
+0000AA  lcd_read_nibble
+0000B0  lcd_send_byte
+0000B6  lcd_read_byte
+0000F0  lcd_init
+00012E  EjecuConversor
+00014C  lcd_gotoxy
+00015E  lcd_putc
+00018A  @PSTRINGC7_693
+0001E0  LeerTeclado
+000209  ProcesarTeclado
+000263  @goto14590
+000277  @MUL1616
+00028C  @MUL88
+0002B1  @MULFF
+000326  @DIV1616
+00034B  ProcesarSenal
+000359  @DTOF
+000399  @DIVFF
+000490  @SFTOI
+0004B6  DescomponerDigitos
+0004F4  VisualizarLCD
+000800  @cinit1
+000800  MAIN
+00080E  @cinit2
+
+Project Directory:
+    C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\
+
+Project Files:
+    temp.c                                                  [03-jun.-20 13:53  CRC=42B19D06]
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\16F877A.h [30-oct.-19 10:48  CRC=15D497A0]
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\lcd.c   [22-feb.-16 05:05  CRC=D1A6378A]
+    DriverTec4x4.c                                          [13-oct.-09 15:58  CRC=5E3FD226]
+
+Source signature=E6AC107C
+Program memory checksum=0000
+Hex file CRC=4F35
+
+Units:
+    C:\Users\vismar\Pictures\CyberLink Cloud\PIC LM35 LCD y teclado\temp (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   temp.xsym
+    Errors:      temp.err
+    Ext Symbols: temp.esym
+    INHX8:       temp.hex
+    Symbols:     temp.sym
+    List:        temp.lst
+    Debug/COFF:  temp.cof
+    Project:     temp.ccspjt
+    Call Tree:   temp.tre
+    Statistics:  temp.STA
